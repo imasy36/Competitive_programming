@@ -1,6 +1,5 @@
 ## leetcode: Generate Parentheses
-## https://leetcode.com/problems/container-with-most-water/
-
+## https://leetcode.com/problems/generate-parentheses/
 class Solution:
     def generateParenthesis(self, n: int):
         return genPar('(', 1, 1, n)
